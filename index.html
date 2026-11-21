@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio BTS SIO – Fadel Bamba</title>
+    <meta name="description" content="Portfolio de Fadel Bamba, étudiant en BTS SIO option SLAM.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ===== EN-TÊTE ===== -->
+<header class="header">
+    <a href="#accueil" class="logo">Fadel<span>.</span>Bamba</a>
+
+    <!-- Case à cocher cachée : sert à ouvrir/fermer le menu sur mobile (sans JavaScript) -->
+    <input type="checkbox" id="menu-toggle" class="menu-toggle">
+    <label for="menu-toggle" class="burger" aria-label="Ouvrir le menu">
+        <span></span><span></span><span></span>
+    </label>
+
+    <nav class="nav">
+        <a href="#accueil">Accueil</a>
+        <a href="#parcours">Parcours</a>
+        <a href="#competences">Compétences</a>
+        <a href="#stages">Stages</a>
+        <a href="#projets">Projets</a>
+        <a href="#procedures">Procédures</a>
+        <a href="#formation">BTS SIO</a>
+        <a href="#documents">Documents</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<main>
+
+<!-- ===== ACCUEIL ===== -->
+<section id="accueil" class="hero">
+    <div class="hero-text">
+        <p class="hero-tag">BTS SIO · Option SLAM</p>
+        <h1>Bonjour, je suis<br><span class="accent">Fadel Bamba</span></h1>
+        <p class="hero-desc">
+            Étudiant en <strong>BTS Services Informatiques aux Organisations</strong> à
+            l'Institution Saint-Aspais de Melun. Ce portfolio présente mon parcours,
+            mes compétences, mes stages, mes projets et les procédures réalisées
+            pendant ma formation.
+        </p>
+        <div class="hero-buttons">
+            <a href="#stages" class="btn">Voir mes stages</a>
+            <a href="documents/CV_Fadel_Bamba.pdf" class="btn btn-outline" download>Télécharger mon CV</a>
+        </div>
+    </div>
+    <div class="hero-photo">
+        <img src="images/photo-fadel.jpg" alt="Photo de Fadel Bamba">
+    </div>
+</section>
+
+<!-- ===== PARCOURS ===== -->
+<section id="parcours" class="section">
+    <h2 class="section-title">Parcours scolaire</h2>
+    <div class="timeline">
+        <div class="timeline-item">
+            <span class="timeline-date">2022 – 2024</span>
+            <h3>Baccalauréat technologique STI2D</h3>
+            <p>Lycée Frédéric Joliot-Curie, Dammarie-les-Lys · Obtenu</p>
+        </div>
+        <div class="timeline-item">
+            <span class="timeline-date">Décembre 2024</span>
+            <h3>Contrat d'Engagement Jeune</h3>
+            <p>Mission Emploi et Insertion, La Rochette</p>
+        </div>
+        <div class="timeline-item">
+            <span class="timeline-date">2025 – 2026</span>
+            <h3>BTS SIO – 1<sup>re</sup> année</h3>
+            <p>Institution Saint-Aspais, Melun · Stage chez Musidanses</p>
+        </div>
+        <div class="timeline-item current">
+            <span class="timeline-date">2026 – 2027</span>
+            <h3>BTS SIO – 2<sup>e</sup> année, option SLAM</h3>
+            <p>En cours</p>
+        </div>
+    </div>
+</section>
+
+<!-- ===== COMPÉTENCES ===== -->
+<section id="competences" class="section">
+    <h2 class="section-title">Compétences techniques</h2>
+    <div class="skills">
+        <div class="card skill"><img src="images/HTML-5-Badge-Logo.png" alt=""><h3>HTML</h3></div>
+        <div class="card skill"><img src="images/css.svg" alt=""><h3>CSS</h3></div>
+        <div class="card skill"><img src="images/PHP-logo.svg.png" alt=""><h3>PHP</h3></div>
+        <div class="card skill"><img src="images/Python-logo-notext.svg.png" alt=""><h3>Python</h3></div>
+        <div class="card skill"><img src="images/Sql_data_base_with_logo.png" alt=""><h3>SQL</h3></div>
+        <div class="card skill"><img src="images/linux-tux-1-logo.png" alt=""><h3>Linux</h3></div>
+    </div>
+</section>
+
+<!-- ===== STAGES ===== -->
+<section id="stages" class="section">
+    <h2 class="section-title">Stages</h2>
+
+    <!-- Stage 1re année -->
+    <article class="card stage">
+        <div class="stage-header">
+            <div>
+                <span class="badge">Stage 1<sup>re</sup> année</span>
+                <h3>Musidanses – Refonte du site Internet</h3>
+                <p class="stage-meta">Association culturelle · Chilly-Mazarin (91) · du 1<sup>er</sup> juin au 3 juillet 2026 · en télétravail</p>
+            </div>
+        </div>
+
+        <div class="stage-body">
+            <div class="stage-text">
+                <h4>L'entreprise</h4>
+                <p>
+                    Musidanses est une association qui fait découvrir la danse et la musique
+                    aux enfants, aux ados et aux adultes : flamenco, salsa, claquettes
+                    irlandaises et américaines, danses irlandaises. Ses cours et spectacles
+                    ont lieu à la salle La Roue de Chilly-Mazarin.
+                </p>
+
+                <h4>Ma mission</h4>
+                <p>
+                    Son site Internet était devenu vieillissant. Mon tuteur m'a confié la
+                    création d'une nouvelle version, plus moderne, plus claire et plus
+                    simple à maintenir, en gardant toutes les informations importantes.
+                </p>
+
+                <h4>Ce que j'ai réalisé</h4>
+                <ul class="list">
+                    <li>Analyse de l'ancien site et des informations à conserver</li>
+                    <li>Nouvelle structure : Accueil, Association, Cours, Spectacles, Galerie, Actualités, Contact</li>
+                    <li>Menu de navigation et boutons qui mènent directement à chaque discipline</li>
+                    <li>Galerie photos en grille avec effet au survol et bouton « Voir plus »</li>
+                    <li>Mise en forme en CSS3 et adaptation aux mobiles et tablettes</li>
+                    <li>Tests sur plusieurs navigateurs et tailles d'écran</li>
+                </ul>
+
+                <div class="tags">
+                    <span>HTML5</span><span>CSS3</span><span>Responsive</span><span>VS Code</span><span>Google Chrome</span>
+                </div>
+
+                <h4>Compétences développées</h4>
+                <p>
+                    Analyser le besoin d'un client, organiser un projet web, tenir compte des
+                    retours de mon tuteur, corriger les erreurs d'affichage et chercher des
+                    solutions en autonomie.
+                </p>
+
+                <a href="documents/rapport-stage-musidanses.pdf" class="btn" download>Télécharger le rapport de stage</a>
+            </div>
+
+            <div class="stage-gallery">
+                <figure>
+                    <img src="images/musidanses-ancien-site.jpg" alt="Ancien site de Musidanses">
+                    <figcaption>Avant : l'ancien site</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/musidanses-accueil.jpg" alt="Nouvelle page d'accueil de Musidanses">
+                    <figcaption>Après : la nouvelle page d'accueil</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/musidanses-cours.jpg" alt="Section Nos ateliers">
+                    <figcaption>Boutons vers chaque atelier</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/musidanses-galerie.jpg" alt="Galerie photos du nouveau site">
+                    <figcaption>Galerie avec bouton « Voir plus »</figcaption>
+                </figure>
+            </div>
+        </div>
+    </article>
+
+    <!-- Stage 2e année : à compléter -->
+    <article class="card stage stage-todo">
+        <span class="badge badge-muted">Stage 2<sup>e</sup> année</span>
+        <h3>À venir</h3>
+        <p>Cette partie sera complétée après mon stage de deuxième année.</p>
+    </article>
+</section>
+
+<!-- ===== PROJETS ===== -->
+<section id="projets" class="section">
+    <h2 class="section-title">Projets</h2>
+    <div class="projects">
+
+        <article class="card project">
+            <img src="images/maquette-koo_2_fourchette.png" alt="Maquette du projet Koo2fourchette">
+            <div class="project-text">
+                <span class="badge">Projet AP · SIO1</span>
+                <h3>Koo2fourchette</h3>
+                <p>
+                    Koo_2_fourchette, une société qui publie des recettes en ligne, veut
+                    moderniser son site et l'héberger elle-même. Le projet consiste à concevoir
+                    la maquette HTML de la page d'accueil et à mettre en place l'infrastructure
+                    système et réseau.
+                </p>
+                <a href="documents/Projet-AP-SIO1.pdf" class="btn" download>En savoir plus</a>
+            </div>
+        </article>
+
+        <!-- Projet à compléter : copier ce bloc et remplacer le texte quand un projet est fini -->
+        <article class="card project project-todo">
+            <div class="project-placeholder">⏳</div>
+            <div class="project-text">
+                <span class="badge badge-muted">En cours</span>
+                <h3>Projet à venir</h3>
+                <p>Projet de deuxième année en cours de réalisation. Il sera présenté ici une fois terminé.</p>
+            </div>
+        </article>
+
+    </div>
+</section>
+
+<!-- ===== PROCÉDURES ===== -->
+<section id="procedures" class="section">
+    <h2 class="section-title">Procédures informatiques</h2>
+    <div class="procedures">
+        <div class="card procedure">
+            <span class="procedure-num">01</span>
+            <h3>Paramétrer la redirection de port en réseau NAT</h3>
+            <a href="documents/procedure-1.pdf" download>Télécharger →</a>
+        </div>
+        <div class="card procedure">
+            <span class="procedure-num">02</span>
+            <h3>Créer un dossier partagé entre l'hôte et l'invité (VirtualBox)</h3>
+            <a href="documents/procedure-2.pdf" download>Télécharger →</a>
+        </div>
+        <div class="card procedure">
+            <span class="procedure-num">03</span>
+            <h3>Configurer une adresse IP statique sur un PC</h3>
+            <a href="documents/procedure-3.pdf" download>Télécharger →</a>
+        </div>
+    </div>
+</section>
+
+<!-- ===== BTS SIO ===== -->
+<section id="formation" class="section">
+    <h2 class="section-title">La formation BTS SIO</h2>
+    <p class="intro">
+        Le BTS Services Informatiques aux Organisations est une formation en deux ans
+        dans l'informatique et les systèmes d'information. Elle propose deux options,
+        chacune tournée vers des métiers différents.
+    </p>
+    <div class="bts-blocks">
+        <div class="card bts-option">
+            <h3>SISR</h3>
+            <p class="bts-sub">Solutions d'Infrastructure, Systèmes et Réseaux</p>
+            <p>
+                Installer, sécuriser et maintenir les réseaux, gérer les serveurs et la
+                virtualisation. Mène aux métiers de technicien ou d'administrateur réseau.
+            </p>
+        </div>
+        <div class="card bts-option chosen">
+            <h3>SLAM <span class="badge">Mon choix</span></h3>
+            <p class="bts-sub">Solutions Logicielles et Applications Métiers</p>
+            <p>
+                Analyser les besoins, programmer des applications et concevoir des bases
+                de données. Mène aux métiers de développeur d'applications.
+            </p>
+        </div>
+    </div>
+    <p class="intro">
+        J'ai choisi l'option <strong>SLAM</strong> parce que le développement de logiciels
+        et d'applications est ce qui m'intéresse le plus.
+    </p>
+    <a class="btn btn-outline" target="_blank" rel="noopener"
+       href="https://www.onisep.fr/ressources/univers-formation/formations/post-bac/bts-services-informatiques-aux-organisations-option-b-solutions-logicielles-et-applications-metiers">
+        Référentiel officiel du BTS SIO
+    </a>
+</section>
+
+<!-- ===== DOCUMENTS ===== -->
+<section id="documents" class="section">
+    <h2 class="section-title">Documents</h2>
+    <div class="documents">
+        <div class="card document">
+            <div class="doc-icon">📄</div>
+            <h3>Curriculum Vitae</h3>
+            <p>Mon CV à jour</p>
+            <a href="documents/CV_Fadel_Bamba.pdf" class="btn" download>Télécharger</a>
+        </div>
+        <div class="card document">
+            <div class="doc-icon">✉️</div>
+            <h3>Lettre de motivation</h3>
+            <p>Recherche de stage</p>
+            <a href="documents/lettre-de-motivation.pdf" class="btn" download>Télécharger</a>
+        </div>
+        <div class="card document">
+            <div class="doc-icon">📘</div>
+            <h3>Rapport de stage</h3>
+            <p>Stage de 1<sup>re</sup> année – Musidanses</p>
+            <a href="documents/rapport-stage-musidanses.pdf" class="btn" download>Télécharger</a>
+        </div>
+    </div>
+</section>
+
+<!-- ===== ÉCOLE ===== -->
+<section id="ecole" class="section">
+    <h2 class="section-title">Établissement scolaire</h2>
+    <div class="card ecole">
+        <img src="images/campus.jpg" alt="Campus Saint-Aspais">
+        <div>
+            <h3>Institution Saint-Aspais</h3>
+            <p>Melun (77)</p>
+            <p>Téléphone : 01 60 56 59 59</p>
+            <a class="btn btn-outline" target="_blank" rel="noopener" href="https://institutionsaintaspais.fr/campus/">Site du campus</a>
+        </div>
+    </div>
+</section>
+
+<!-- ===== CONTACT ===== -->
+<section id="contact" class="section">
+    <h2 class="section-title">Contact</h2>
+    <div class="contact">
+        <a class="card contact-item" href="mailto:fadelbamba2006@yahoo.com">
+            <span class="contact-icon">✉</span>
+            <h3>E-mail</h3>
+            <p>fadelbamba2006@yahoo.com</p>
+        </a>
+        <a class="card contact-item" href="https://www.linkedin.com/in/fadel-bamba-8112a9317/" target="_blank" rel="noopener">
+            <span class="contact-icon contact-in">in</span>
+            <h3>LinkedIn</h3>
+            <p>Fadel Bamba</p>
+        </a>
+        <a class="card contact-item" href="tel:+33782465334">
+            <span class="contact-icon">☎</span>
+            <h3>Téléphone</h3>
+            <p>07 82 46 53 34</p>
+        </a>
+    </div>
+</section>
+
+</main>
+
+<footer class="footer">
+    © 2026 – Portfolio BTS SIO · Fadel Bamba
+</footer>
+
+<script>
+    // Ferme le menu mobile quand on clique sur un lien
+    document.querySelectorAll('.nav a').forEach(function (lien) {
+        lien.addEventListener('click', function () {
+            document.getElementById('menu-toggle').checked = false;
+        });
+    });
+</script>
+
+</body>
+</html>
