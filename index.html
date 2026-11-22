@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio BTS SIO – Fadel Bamba</title>
+    <!-- icône de l'onglet -->
     <link rel="icon"
         href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💻</text></svg>">
     <link rel="stylesheet" href="style.css">
@@ -12,7 +13,7 @@
 
 <body>
 
-    <!-- ===== MENU ===== -->
+    <!-- MENU -->
     <header>
         <nav>
             <a href="#formation">Formation</a>
@@ -23,9 +24,11 @@
         </nav>
     </header>
 
-    <!-- ===== ACCUEIL ===== -->
+    <!-- ACCUEIL -->
     <section class="hero">
         <div class="hero-container">
+
+            <!-- texte à gauche -->
             <div class="hero-text">
                 <h1>Fadel <span class="highlight">Bamba</span></h1>
                 <h2>Étudiant en BTS SIO <span class="badge-dev"><span class="pulse-dot"></span>Option SLAM</span></h2>
@@ -40,6 +43,8 @@
                     <span class="detail-tag">💻 Option SLAM</span>
                     <span class="detail-tag">📍 Melun (77)</span>
                 </div>
+
+                <!-- mes liens -->
                 <div class="social-buttons">
                     <a href="https://github.com/FBB-Fadel" target="_blank" class="btn-social">GitHub</a>
                     <a href="https://www.linkedin.com/in/fadel-bamba-8112a9317/" target="_blank" class="btn-social">LinkedIn</a>
@@ -48,17 +53,21 @@
                     <a href="documents/lettre-de-motivation.pdf" target="_blank" class="btn-social">Lettre de motivation</a>
                 </div>
             </div>
+
+            <!-- photo à droite -->
             <div class="hero-image-container">
                 <img src="images/photo-fadel.jpg" alt="Photo de Fadel Bamba" class="profile-pic">
             </div>
         </div>
     </section>
 
-    <!-- ===== FORMATION & PARCOURS ===== -->
+    <!-- FORMATION ET PARCOURS -->
     <section id="formation" class="container">
         <h2 class="section-title">Formation & Parcours</h2>
 
         <div class="formation-grid">
+
+            <!-- le BTS -->
             <div class="info-box">
                 <h3>🎓 Le BTS SIO</h3>
                 <p>
@@ -75,6 +84,7 @@
                     target="_blank" class="link-text">Référentiel BTS SIO →</a>
             </div>
 
+            <!-- mon parcours (du plus récent au plus ancien) -->
             <div class="info-box">
                 <h3>🚀 Mon Parcours</h3>
                 <ul class="timeline">
@@ -96,7 +106,7 @@
         </div>
     </section>
 
-    <!-- ===== COMPÉTENCES ===== -->
+    <!-- COMPÉTENCES -->
     <section id="competences" class="container">
         <h2 class="section-title">Compétences Techniques</h2>
 
@@ -104,16 +114,19 @@
             <div class="tech-card"><img src="images/HTML-5-Badge-Logo.png" alt=""><span>HTML5</span></div>
             <div class="tech-card"><img src="images/css.svg" alt=""><span>CSS3</span></div>
             <div class="tech-card"><img src="images/PHP-logo.svg.png" alt=""><span>PHP</span></div>
+            <div class="tech-card"><img src="images/symfony.svg" alt=""><span>Symfony</span></div>
+            <div class="tech-card"><img src="images/csharp.svg" alt=""><span>C#</span></div>
             <div class="tech-card"><img src="images/Python-logo-notext.svg.png" alt=""><span>Python</span></div>
             <div class="tech-card"><img src="images/Sql_data_base_with_logo.png" alt=""><span>SQL</span></div>
             <div class="tech-card"><img src="images/linux-tux-1-logo.png" alt=""><span>Linux</span></div>
         </div>
     </section>
 
-    <!-- ===== STAGES ===== -->
+    <!-- STAGES -->
     <section id="stages" class="container">
         <h2 class="section-title">Stages</h2>
 
+        <!-- stage 1re année -->
         <article class="stage-card">
             <span class="date">Stage 1<sup>re</sup> année · 1<sup>er</sup> juin – 3 juillet 2026 · Télétravail</span>
             <h3>Musidanses – Refonte du site Internet</h3>
@@ -125,6 +138,7 @@
             </p>
 
             <div class="stage-grid">
+                <!-- ce que j'ai fait -->
                 <ul class="stage-list">
                     <li>Analyse de l'ancien site et des informations à garder</li>
                     <li>Nouvelles rubriques : Accueil, Association, Cours, Spectacles, Galerie, Actualités, Contact</li>
@@ -133,6 +147,8 @@
                     <li>Mise en page en CSS3, adaptée aux mobiles et tablettes</li>
                     <li>Tests sur plusieurs navigateurs et tailles d'écran</li>
                 </ul>
+
+                <!-- captures du site -->
                 <div class="stage-gallery">
                     <figure>
                         <img src="images/musidanses-ancien-site.jpg" alt="Ancien site de Musidanses">
@@ -159,6 +175,7 @@
             <a href="documents/rapport-stage-musidanses.pdf" target="_blank" class="btn-small">Lire le rapport de stage</a>
         </article>
 
+        <!-- stage 2e année (pas encore fait) -->
         <article class="stage-card todo-card">
             <span class="date">Stage 2<sup>e</sup> année</span>
             <h3>À venir</h3>
@@ -166,11 +183,36 @@
         </article>
     </section>
 
-    <!-- ===== PROJETS & PROCÉDURES ===== -->
+    <!-- PROJETS ET PROCÉDURES -->
     <section id="projets" class="container">
         <h2 class="section-title">Projets & Procédures</h2>
 
         <div class="projects-grid">
+
+            <!-- projets -->
+            <article class="project-card">
+                <span class="statut">En cours</span>
+                <h3>Workout Planner</h3>
+                <p>
+                    Application web pour planifier ses séances de sport : création des séances,
+                    des exercices et suivi de l'entraînement.
+                </p>
+                <div class="tags">
+                    <span class="tag">PHP</span><span class="tag">Symfony</span><span class="tag">SQL</span><span class="tag">Twig</span>
+                </div>
+            </article>
+
+            <article class="project-card">
+                <span class="statut">En cours</span>
+                <h3>Projet C#</h3>
+                <p>
+                    Application développée en C# dans le cadre de ma 2<sup>e</sup> année de BTS SIO.
+                </p>
+                <div class="tags">
+                    <span class="tag">C#</span><span class="tag">.NET</span>
+                </div>
+            </article>
+
             <article class="project-card">
                 <h3>Koo2fourchette</h3>
                 <p>
@@ -183,15 +225,7 @@
                 <a href="documents/Projet-AP-SIO1.pdf" target="_blank" class="btn-small">Lire le PDF</a>
             </article>
 
-            <!-- Pour ajouter un projet : copier ce bloc et remplacer le texte -->
-            <article class="project-card todo-card">
-                <h3>⏳ Projet de 2<sup>e</sup> année</h3>
-                <p>Projet en cours de réalisation. Il sera présenté ici une fois terminé.</p>
-                <div class="tags">
-                    <span class="tag">En cours</span>
-                </div>
-            </article>
-
+            <!-- procédures -->
             <article class="project-card procedure-card">
                 <h3>📝 Procédure : Redirection de port (NAT)</h3>
                 <p>Paramétrer la redirection de port d'une machine virtuelle en réseau NAT.</p>
@@ -221,28 +255,81 @@
         </div>
     </section>
 
-    <!-- ===== VEILLE TECHNOLOGIQUE ===== -->
+    <!-- VEILLE TECHNOLOGIQUE -->
     <section id="veille" class="container">
         <h2 class="section-title">Veille Technologique</h2>
 
+        <!-- mon sujet -->
         <div class="veille-intro">
-            <h3>📡 Sujet : à définir</h3>
+            <h3>📡 Sujet : Le no-code et le low-code</h3>
             <p>
-                Ma veille technologique sera présentée ici : le sujet choisi, les articles suivis
-                et les outils utilisés pour rester informé.
+                Le no-code permet de créer des sites et des applications sans écrire de code, avec des
+                outils visuels. Le low-code, lui, réduit le code à écrire tout en laissant le développeur
+                en ajouter quand il en a besoin. Ma veille porte sur ces outils et sur ce qu'ils changent
+                pour le métier de développeur.
             </p>
         </div>
 
-        <!-- Pour ajouter un article : copier ce bloc et remplacer le texte et le lien -->
+        <!-- articles -->
         <div class="articles-grid">
-            <article class="article-card todo-card">
-                <span class="date">Bientôt</span>
-                <h4>Premier article</h4>
-                <p>Résumé de l'article et ce qu'il apporte sur le sujet de veille.</p>
+            <article class="article-card">
+                <span class="date">Janvier 2023</span>
+                <h4>Une réponse au manque de développeurs ?</h4>
+                <p>
+                    Les entreprises ont du mal à recruter des développeurs. Le no-code et le low-code
+                    leur permettent de créer des outils plus vite et pour moins cher.
+                </p>
+                <a href="https://siecledigital.fr/2023/01/26/low-code-no-code-la-solution-face-a-la-penurie-de-developpeurs/"
+                    target="_blank" class="read-more">Lire l'article →</a>
             </article>
+
+            <article class="article-card">
+                <span class="date">Article</span>
+                <h4>Quel avenir pour le métier de développeur ?</h4>
+                <p>
+                    Avec le no-code, le low-code et l'IA, une partie des applications est créée par des
+                    personnes qui ne sont pas informaticiennes. Le développeur garde un rôle sur la
+                    sécurité, l'intégration et les projets complexes.
+                </p>
+                <a href="https://atos.net/fr/blog/no-code-low-code-ia-quel-avenir-pour-le-metier-de-developpeur"
+                    target="_blank" class="read-more">Lire l'article →</a>
+            </article>
+
+            <article class="article-card">
+                <span class="date">Juin 2026</span>
+                <h4>Les métiers du no-code en 2026</h4>
+                <p>
+                    Le no-code crée aussi de nouveaux métiers : de plus en plus d'offres d'emploi
+                    demandent de savoir utiliser ces outils en France.
+                </p>
+                <a href="https://www.jedha.co/formation-ia/metiers-no-code-emploi-salaires-debouches"
+                    target="_blank" class="read-more">Lire l'article →</a>
+            </article>
+
+            <article class="article-card">
+                <span class="date">Juillet 2026</span>
+                <h4>Les principaux outils no-code</h4>
+                <p>
+                    Un tour des outils les plus utilisés selon le besoin : Webflow pour les sites,
+                    Bubble pour les applications, Make ou n8n pour automatiser des tâches.
+                </p>
+                <a href="https://www.lafabriquedunet.fr/logiciels/tendances/panorama-des-outils-no-code-a-essayer-absolument"
+                    target="_blank" class="read-more">Lire l'article →</a>
+            </article>
+        </div>
+
+        <!-- outils de veille -->
+        <div class="tools-container">
+            <h4>🛠️ Mes outils de veille :</h4>
+            <div class="tools-list">
+                <span class="tool-badge">Siècle Digital</span>
+                <span class="tool-badge">Blog Atos</span>
+                <span class="tool-badge">Google Actualités</span>
+            </div>
         </div>
     </section>
 
+    <!-- PIED DE PAGE -->
     <footer>
         <p>&copy; 2026 - BAMBA Fadel | BTS SIO</p>
     </footer>
