@@ -432,7 +432,7 @@ header nav a:hover { color: var(--bordeaux-vif); }
     opacity: 0.75;
 }
 
-/* ===== PROJETS ET PROCÉDURES ===== */
+/* ===== PROJETS ET PROCÉDURES (mêmes cases) ===== */
 .projects-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
