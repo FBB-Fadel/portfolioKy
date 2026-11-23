@@ -549,6 +549,33 @@ header nav a:hover { color: var(--bordeaux-vif); }
     color: var(--texte-doux);
 }
 
+/* ===== DOCUMENTS ===== */
+.documents-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 25px;
+}
+
+.document-card {
+    background-color: var(--carte);
+    padding: 30px;
+    border-radius: 12px;
+    border: 1px solid var(--bordure);
+    text-align: center;
+    transition: transform 0.3s, border-color 0.3s;
+}
+
+.document-card:hover {
+    transform: translateY(-5px);
+    border-color: var(--bordeaux-vif);
+}
+
+.doc-icon { font-size: 2.5rem; }
+
+.document-card h3 { margin: 10px 0 5px; }
+
+.document-card p { color: var(--bordeaux-vif); font-size: 0.9rem; }
+
 /* ===== PIED DE PAGE ===== */
 footer {
     text-align: center;
@@ -584,5 +611,5 @@ footer {
 }
 
 @media (max-width: 420px) {
-    header nav a { margin: 0 6px; font-size: 0.8rem; }
+    header nav a { margin: 0 5px; font-size: 0.78rem; }
 }

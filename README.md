@@ -8,6 +8,7 @@ Portfolio de Fadel Bamba, étudiant en BTS SIO option SLAM à l'Institution Sain
 - Stage de 2e année : à venir
 - Projets : Workout Planner (C#) et Projet Basket (Symfony) en cours, Koo2fourchette
 - Procédures informatiques (section à part), veille technologique sur le no-code et le low-code
+- Documents : CV, lettre de motivation, rapport de stage
 
 ## Structure
 ```
